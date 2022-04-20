@@ -43,7 +43,7 @@ git commit -m "git的使用方法"
 
 
 [#  添加一个远程仓库地址
-git remote add (origin https://github.com/Stella0621/markdown-practice.git)]只需要添加一次就可以了
+git remote add github git@github.com:Stella0621/markdown-practice.git
 
 #  向远程仓库推送
 git push (github master:master  前面是本地分支，后面是远程分支)
