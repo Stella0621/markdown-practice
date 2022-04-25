@@ -10,6 +10,12 @@ pwd
 #  查看当前目录下有哪些文件
 ls -l
 
+#  查看所有文件，包括隐藏文件
+ls -la
+
+#  打开隐藏文件
+open(最好直接打开本地的代码仓库，利用键盘：command+shift+.找到根目录下的隐藏文件)
+
 #  回到主目录
 cd(cd ..回到上一层)
 
@@ -55,7 +61,13 @@ git remote -v
 #  查看当前git仓库中的文件状态
 git status
 
-12345678
+# 查找错误 
+make lint-markdown
+
+#  查出专有名词
+make lint-spell-colour
+
+
 
 ```
 
